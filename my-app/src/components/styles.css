@@ -1,0 +1,212 @@
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 40px 30px 0 30px;
+    /* position: relative; */
+}
+
+.card .image {
+    margin: 20px;
+}
+
+.card .image .main-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.card .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .coin {
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* vertical-align: middle; */
+    font-size: 20px;
+}
+
+.card .coin .coin-image {
+    color: orange;
+}
+
+.card .coin .coin-value {
+    font-weight: bold;
+}
+
+/* .card .logo-1 { */
+/* position: absolute;
+    left: 5px; */
+/* display: flex;
+    align-items: flex-start; */
+/* margin-left: 30px; */
+/* } */
+
+.card .logo-1 .logo {
+    height: 40px;
+    width: 80px;
+}
+
+.card .logo-2 .powered-by {
+    display: inline-block;
+    margin-right: 5px;
+    height: 20px;
+    font-size: 15px;
+}
+.card .logo-2 .logo {
+    height: 20px;
+    width: 80px;
+}
+
+.card .identity {
+    margin: 30px;
+}
+
+/* .card .text .type {
+    
+} */
+
+.card .text .value {
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button .icon {
+    padding: 13px;
+    font-size: 24px;
+    color: #f12711;
+}
+
+.small-card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    margin: 40px;
+    position: relative;
+}
+
+.small-card .image {
+    margin: 10px;
+}
+
+.small-card .image .main-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.small-card .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-card .coin .coin-image {
+    color: orange;
+}
+
+.small-card .coin .coin-value {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.small-card .logo-1 .logo {
+    height: 40px;
+    width: 80px;
+}
+
+.small-card .identity {
+    margin: 15px;
+}
+
+.small-card .identity .text .value {
+    font-weight: bold;
+}
+
+.small-card .remove {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.cards {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.add-new .form {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5%;
+}
+
+.add-new label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+    margin: 0 10px 20px 0;
+    font-weight: bold;
+}
+
+.add-new .inputs {
+    width: 230px;
+}
+
+.add-new .form-submit {
+    background: #247ec9;
+    color: #fff;
+    border: 1pxsolid#eee;
+    border-radius: 20px;
+    box-shadow: 5px5px5px#eee;
+    text-shadow: none;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.add-new .form-submit:hover {
+    background: #014375;
+    cursor: pointer;
+}
+
+.add-new .information {
+    font-weight: bold;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.add-new .all-cards {
+    background: #f12711;
+    color: #fff;
+    border: 1pxsolid#eee;
+    border-radius: 20px;
+    box-shadow: 5px5px5px#eee;
+    text-shadow: none;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.add-new .all-cards:hover {
+    background: #f5af19;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.not-card {
+    font-weight: bold;
+    font-size: 30px;
+}
